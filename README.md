@@ -1,4 +1,4 @@
-# Self-Destruct
+# Self Destruct
 Self Destruct is an application that bombs your screen with errors and consoles, eats up CPU and memory, and eventually shuts your computer down. Additionally, it also plays a bunch of sounds by printing the BEL character continuously in console windows. This application is **not destructive** and was made for fun.
 <p align="center">
   <img src="./res/Nuke.png" alt="Nuke">
