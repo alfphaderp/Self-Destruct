@@ -1,3 +1,6 @@
+rem This file prints out a block of text saying "ERROR"
+rem This file exists purely for aesthetic purposes
+
 @echo off
 setlocal enabledelayedexpansion
 
