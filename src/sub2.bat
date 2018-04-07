@@ -1,3 +1,5 @@
+rem This file periodically prints a BEL character to play a short sound
+
 @echo off
 setlocal enabledelayedexpansion
 call sub0.bat
