@@ -1,5 +1,6 @@
 # Self-Destruct-Sequence
 Self Destruct Sequence is an application that bombs your screen with errors and consoles, eating up CPU and memory and eventually shutting it down. Additionally, it also plays a bunch of sounds by printing the BEL character continuously in console windows. This application is **not destructive** and was made for fun.
+![Icon](./res/Icon.png)
 
 ## Getting Started
 To get started, simply download Self Destruct Sequence.exe and run it. That's it. Disable your antivirus if it thinks the file is suspicious.
@@ -18,3 +19,6 @@ I was bored.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+![Screenshot](./res/Screenshot.png)
