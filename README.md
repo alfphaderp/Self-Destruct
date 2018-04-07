@@ -1,11 +1,11 @@
-# Self-Destruct-Sequence
-Self Destruct Sequence is an application that bombs your screen with errors and consoles, eats up CPU and memory, and eventually shuts your computer down. Additionally, it also plays a bunch of sounds by printing the BEL character continuously in console windows. This application is **not destructive** and was made for fun.
+# Self-Destruct
+Self Destruct is an application that bombs your screen with errors and consoles, eats up CPU and memory, and eventually shuts your computer down. Additionally, it also plays a bunch of sounds by printing the BEL character continuously in console windows. This application is **not destructive** and was made for fun.
 <p align="center">
   <img src="./res/Nuke.png" alt="Nuke">
 </p>
 
 ## Getting Started
-To get started, simply download Self Destruct Sequence.exe and run it. That's it. Disable your antivirus if it thinks the file is suspicious.
+To get started, simply download Self Destruct.exe and run it. That's it. Disable your antivirus if it thinks the file is suspicious.
 
 Alternatively, you can also run the PowerShell script. The executable is just a packed version of the PowerShell script, so running either should be the same. Be sure to use Set-Executionpolicy to allow the script to run. You can also copy and paste the script into a PowerShell console.
 
