@@ -1,3 +1,5 @@
+rem This file is the main process that calls other subprocesses in a loop as well as generate xy coordinates
+
 @echo off
 call sub0.bat
 
