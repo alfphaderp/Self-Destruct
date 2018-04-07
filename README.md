@@ -22,7 +22,7 @@ The final result is a chaotic mess of consoles and error messages across the scr
 I was bored.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 <p align="center">
   <img src="./res/Screenshot.png" alt="Screenshot">
