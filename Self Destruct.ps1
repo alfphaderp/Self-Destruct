@@ -1,16 +1,22 @@
-# Load scripts if not present
-if(-Not (Test-Path 'src\main.bat')) {
+﻿# Load scripts if not present
+if(-Not (Test-Path 'tmp\main.bat')) {
     # Create a directory to store scripts
-    New-Item 'src' -ItemType 'directory'
+    New-Item 'tmp' -ItemType 'directory'
+
+    # Create a test file to check write permissions
+    New-Item 'test' -ItemType 'file'
 
     # Notify the user an error has occurred and exit if the directory was unable to be created
-    if(-Not (Test-Path 'src')) {
-        [System.Windows.MessageBox]::Show('Unable to create the directory: "src"','Error','OK','Error')
+    if(-not (Test-Path 'tmp') -or -not (Test-Path 'test')) {
+        [System.Windows.MessageBox]::Show('Unable to load scripts. Please try running this application in a different directory.','Error','OK','Error')
         Exit
     }
 
+    # Remove test file if able to write
+    Remove-Item 'test'
+
     # Navigate to the directory and load files
-    Set-Location 'src'
+    Set-Location 'tmp'
     Add-Content main.bat (
         '@echo off',
         'call sub0.bat',
@@ -75,5 +81,5 @@ if(-Not (Test-Path 'src\main.bat')) {
 }
 
 # Release the kraken
-Set-Location 'src'
+Set-Location 'tmp'
 Start-Process 'main.bat'
